@@ -1,9 +1,8 @@
-![Generic badge](https://img.shields.io/github/commit-activity/m/sikkiladho/leo)
-[![C/C++ CI](https://github.com/SikkiLadho/Leo/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SikkiLadho/Leo/actions/workflows/c-cpp.yml)
 
-# Leo Hypervisor
 
-`Leo` is a `Type 1 Hypervisor` for the `Raspberry Pi 4`.
+# Modular Hypervisor
+
+`Modular` is a `Type 1 Hypervisor` for the `Raspberry Pi 4`.
 
 # Set Up 
 
@@ -41,11 +40,11 @@ This setup was tested on Debian.
   mv /media/boot/kernel8.img el1-kernel8.img
   ```
 
-6. Compile Leo ARM64 Hypervisor
+6. Compile Modular ARM64 Hypervisor
 
   ```shell
-  git clone https://github.com/sikkiladho/leo.git leo
-  cd leo
+  git clone https://github.com/amratrathore09/Modular.git Modular
+  cd Modular
   make
   ```
 
